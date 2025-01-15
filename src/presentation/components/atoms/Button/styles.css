@@ -1,0 +1,22 @@
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  transition: color 0.2s;
+  outline: none;
+  cursor: pointer;
+  pointer-events: auto;
+  opacity: 1;
+  padding: 0.5rem 0.75rem;
+  border: 1px solid transparent;
+  width: 100%;
+
+  background-color: #005486;
+  color: white;
+}
+
+.button:hover {
+  background-color: #004771;
+}
+
